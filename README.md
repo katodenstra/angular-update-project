@@ -1,27 +1,40 @@
-# Essentials
+# Angular Task Management Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.2.
+This project was built with **Angular** to showcase my skills as a UX Engineer with a strong frontend focus.  
+It demonstrates my ability to create reusable components, manage state, and handle user tasks within an Angular environment.
 
-## Development server
+**Note:** This project is focused on **Angular knowledge and accessibility implementation**, rather than advanced UX design.  
+The styling is minimal (basic CSS) — the goal is to highlight Angular component logic, structure, functionality, and accessible practices.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+---
 
-## Code scaffolding
+## Live Demo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Live site:** [https://mvillada-angular-comopnents.netlify.app](https://mvillada-angular-comopnents.netlify.app)
+- **GitHub repo:** [https://github.com/katodenstra/angular-task-demo](https://github.com/katodenstra/angular-task-demo)
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Features
 
-## Running unit tests
+- Angular components for user task management
+- Task list and user handling
+- Accessible form elements with proper labels
+- Modal dialogs with `role="dialog"` and `aria-modal` attributes
+- Semantic HTML usage for lists, articles, and buttons
+- Focus management in modal dialogs for keyboard navigation
+- `aria-live` regions for dynamic content updates
+- Task completion buttons with `aria-label` for clarity
+- Simple CSS for readability
+- Routing support with Netlify redirects
+- Clean and modular project structure
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/katodenstra/angular-task-demo.git
+   cd angular-task-demo
+   ```
