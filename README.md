@@ -28,6 +28,7 @@ The styling is minimal (basic CSS) — the goal is to highlight Angular componen
 - Simple CSS for readability
 - Routing support with Netlify redirects
 - Clean and modular project structure
+- Unit tests of components
 
 ---
 
@@ -38,3 +39,13 @@ The styling is minimal (basic CSS) — the goal is to highlight Angular componen
    git clone https://github.com/katodenstra/angular-task-demo.git
    cd angular-task-demo
    ```
+
+## Testing
+
+This project includes **unit tests** for Angular components.
+
+### Running tests
+
+```bash
+ng test
+```
