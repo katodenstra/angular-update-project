@@ -27,6 +27,7 @@ export class TasksComponent {
 
   onAddTask(taskData: NewTaskData) {
     this.isAddingTask = false;
+    this.addTask.emit();
   }
 
   onStartAddTask() {
