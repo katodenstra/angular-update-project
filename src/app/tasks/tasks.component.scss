@@ -1,22 +1,24 @@
+@use "../../styles/tokens" as *;
+
 #tasks {
-  padding: 1rem;
-  border-radius: 8px;
+  padding: $space-lg;
+  border-radius: $radius-lg;
   max-height: 60vh;
   overflow: auto;
-  background-color: #3a2c54;
+  background-color: $color-bg-tasklist;
 }
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 2rem;
-  gap: 1rem;
+  margin-bottom: $space-3xl;
+  gap: $space-lg;
 }
 
 h2 {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: $font-size-md;
   width: 60%;
   text-wrap: balance;
 }
@@ -29,32 +31,32 @@ menu {
 menu button {
   font: inherit;
   cursor: pointer;
-  background-color: #9965dd;
-  border-radius: 4px;
+  background-color: $color-btn-menu;
+  border-radius: $radius-sm;
   border: none;
-  padding: 0.35rem 0.8rem;
-  font-size: 0.9rem;
+  padding: $space-sm $space-xl;
+  font-size: $font-size-md;
 }
 
 menu button:hover,
 menu button:active {
-  background-color: #a565dd
+  background-color: $color-btn-menu-hover;
 }
 
 ul {
   list-style: none;
-  margin: 1rem 0;
+  margin: $space-lg 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: $space-lg;
   max-height: 50vh;
   overflow: auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: $bp-md) {
   h2 {
-    font-size: 1.25rem;
+    font-size: $font-size-xl;
   }
 
   menu {

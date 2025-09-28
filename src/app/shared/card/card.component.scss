@@ -1,0 +1,7 @@
+@use "../../../styles/tokens" as *;
+
+div {
+  border-radius: $radius-md;
+  box-shadow: $shadow-card;
+  overflow: hidden;
+}

@@ -1,0 +1,37 @@
+@use "../../styles/tokens" as *;
+
+button {
+  display: flex;
+  align-items: center;
+  gap: $space-md;
+  padding: $space-sm $space-md;
+  background-color: $color-bg-user;
+  color: $color-text-user;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  width: 100%;
+  min-width: 10rem;
+  text-align: left;
+}
+
+button:hover,
+button:active,
+.active {
+  background-color: $color-btn-user-active;
+  color: $color-text-user-active;
+}
+
+img {
+  width: 2rem;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: $shadow-lg;
+}
+
+span {
+  margin: 0;
+  padding: 0;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-normal;
+}

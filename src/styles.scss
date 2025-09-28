@@ -1,0 +1,18 @@
+@use "styles/tokens" as *;
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: $font-family-base;
+  background: $color-bg-body;
+  color: $color-text-body;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}

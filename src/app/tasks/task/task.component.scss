@@ -1,0 +1,39 @@
+@use "../../../styles/tokens" as *;
+
+article {
+  padding: $space-lg;
+  color: $color-text-task;
+  background-color: $color-bg-task;
+}
+
+h2 {
+  margin: 0;
+}
+
+time {
+  color: $color-text-task-time;
+}
+
+.actions {
+  text-align: right;
+  margin: 0;
+}
+
+.actions button {
+  font: inherit;
+  font-size: $font-size-md;
+  cursor: pointer;
+  background-color: $color-btn-primary;
+  color: $color-text-button-primary;
+  border-radius: $radius-sm;
+  padding: $space-md $space-2xl;
+  border: none;
+  box-shadow: $shadow-sm;
+  transition: all 0.3s ease;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: $color-btn-primary-hover;
+  box-shadow: $shadow-md;
+}

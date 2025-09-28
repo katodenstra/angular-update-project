@@ -1,0 +1,91 @@
+// =============================
+//  Colors
+// =============================
+
+// Backgrounds
+$color-bg-body: radial-gradient(circle at top left, #181023, #0b0519);
+$color-bg-header: linear-gradient(to bottom, #2c0a4c, #450d80);
+$color-bg-dialog: #433352;
+$color-bg-task: #bf9ee5;
+$color-bg-tasklist: #3a2c54;
+$color-bg-user: #433352;
+
+// Text
+$color-text-body: #c3b3d8;
+$color-text-dialog-heading: #d0c2e1;
+$color-text-dialog-label: #ab9ac0;
+$color-text-task: #25113d;
+$color-text-task-time: #3c2c50;
+$color-text-user: #c3b3d1;
+$color-text-user-active: #150722;
+$color-text-button-secondary: #bdadcf;
+$color-text-button-secondary-hover: #d0c2e1;
+$color-text-button-primary: #decdf2;
+
+// Buttons
+$color-btn-primary: #380774;
+$color-btn-primary-hover: #4a0774;
+$color-btn-submit: #9c73ca;
+$color-btn-submit-hover: #895cce;
+$color-btn-menu: #9965dd;
+$color-btn-menu-hover: #a565dd;
+$color-btn-user-active: #9965dd;
+
+// Borders
+$color-border-input: #ab9ac0;
+
+// Inputs
+$color-input-bg: #d0c2e1;
+
+// Shadows
+$shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+$shadow-md: 0 1px 6px rgba(0, 0, 0, 0.3);
+$shadow-lg: 0 1px 8px rgba(0, 0, 0, 0.6);
+$shadow-card: 0 1px 6px rgba(0, 0, 0, 0.1);
+
+// =============================
+//  Spacing
+// =============================
+
+$space-xxs: 0.15rem; // ~2px
+$space-xs: 0.25rem; // 4px
+$space-sm: 0.35rem; // 6px
+$space-md: 0.5rem; // 8px
+$space-lg: 1rem; // 16px
+$space-xl: 1.25rem; // 20px
+$space-2xl: 1.5rem; // 24px
+$space-3xl: 2rem; // 32px
+$space-4xl: 2.5rem; // 40px
+$space-5xl: 4rem; // 64px
+
+// =============================
+//  Typography
+// =============================
+
+$font-family-base: "Poppins", sans-serif;
+
+$font-size-xs: 0.8rem; // user text, labels
+$font-size-sm: 0.85rem; // form labels
+$font-size-md: 0.9rem; // buttons
+$font-size-base: 1rem; // default
+$font-size-lg: 1.15rem; // fallback
+$font-size-xl: 1.25rem; // headings
+$font-size-2xl: 1.5rem; // larger headings
+
+$font-weight-normal: normal;
+$font-weight-bold: bold;
+
+// =============================
+//  Radii
+// =============================
+
+$radius-sm: 4px;
+$radius-md: 6px;
+$radius-lg: 8px;
+$radius-xl: 12px;
+
+// =============================
+//  Breakpoints
+// =============================
+
+$bp-md: 768px;

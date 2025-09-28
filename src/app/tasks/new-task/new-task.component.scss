@@ -1,0 +1,87 @@
+@use "../../../styles/tokens" as *;
+
+.backdrop {
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+dialog {
+  width: 90%;
+  max-width: 30rem;
+  background-color: $color-bg-dialog;
+  border-radius: $radius-md;
+  border: none;
+  box-shadow: $shadow-md;
+  overflow: hidden;
+  padding: $space-lg;
+  top: $space-5xl;
+}
+
+h2 {
+  margin: 0;
+  color: $color-text-dialog-heading;
+}
+
+label {
+  display: block;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-sm;
+  color: $color-text-dialog-label;
+}
+
+input,
+textarea {
+  width: 100%;
+  font: inherit;
+  padding: $space-xxs $space-xs;
+  border-radius: $radius-sm;
+  border: 1px solid $color-border-input;
+  background-color: $color-input-bg;
+}
+
+.actions {
+  margin: $space-lg 0 0;
+  display: flex;
+  justify-content: flex-end;
+  gap: $space-xs;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  padding: $space-sm $space-2xl;
+  border-radius: $radius-sm;
+  background-color: transparent;
+}
+
+button[type="button"] {
+  color: $color-text-button-secondary;
+}
+
+button[type="button"]:hover,
+button[type="button"]:active {
+  color: $color-text-button-secondary-hover;
+}
+
+button[type="submit"] {
+  background-color: $color-btn-submit;
+  box-shadow: $shadow-sm;
+  transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:active {
+  background-color: $color-btn-submit-hover;
+  box-shadow: $shadow-md;
+}
+
+@media (min-width: $bp-md) {
+  dialog {
+    padding: $space-3xl;
+  }
+}

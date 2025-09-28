@@ -32,6 +32,13 @@ The styling is minimal (basic CSS) — the goal is to highlight Angular componen
 
 ---
 
+## Design Tokens (SCSS)
+
+Originally styled with plain CSS, the project was migrated to SCSS and refactored to use design tokens.
+This makes the UI more maintainable and demonstrates modern design-system practices.
+
+---
+
 ## Installation
 
 1. Clone the repository:
